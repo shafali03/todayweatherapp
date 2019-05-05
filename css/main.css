@@ -7,12 +7,14 @@
   --darkBlue: #073b4c;
 }
 body {
-  background: var(--mainRed);
+  background: url('../img/weather.jpg')center/cover fixed no-repeat;
   color: var(--mainBlack);
 }
 .card {
   box-shadow: 0 10px 15px rgb(0, 0, 0);
-  background: var(--mainYellow);
+  /* background: var(--mainYellow);
+   */
+   tra
 }
 .cityInput {
   border: 0.15rem solid var(--mainBlue);
@@ -38,7 +40,7 @@ input:focus {
   display: none;
 }
 .results {
-  display: none;
+  /* display: none; */
 }
 .showItem {
   display: block;
