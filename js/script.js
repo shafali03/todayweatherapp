@@ -75,7 +75,7 @@ class Display {
 
         setTimeout(() => {
             feedback.classList.remove('showItem')
-        }, 3000)
+        }, 9000)
     }
 
 })();
